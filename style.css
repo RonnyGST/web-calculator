@@ -1,0 +1,85 @@
+section {
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 300%;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 400%;
+    margin: 0%;
+}
+
+ul button {
+    font-size: 100%;
+    padding: 0% 7%;
+    margin: 1% 0%;
+}
+
+button {
+    border-radius: 30%;
+}
+
+button:active {
+    background-color: gray;
+    border-radius: 60%;
+}
+
+
+#clear {
+    background-color: orange;
+}
+
+#equal {
+    background-color: rgb(0, 132, 255);
+}
+
+#display {
+    margin-top: 3%;
+    background-color: rgb(79, 175, 0);
+    color: whitesmoke;
+}
+
+
+
+.oper {
+    background-color: aqua;
+}
+
+
+
+@media screen and (min-width: 350px) {
+    ul button {
+        padding: 0% 10%;
+    }
+}
+
+@media screen and (min-width: 470px) {
+    ul button {
+        padding: 0% 20%;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    ul button {
+        padding: 0% 20%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    ul button {
+        padding: 0% 30%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    ul button {
+        padding: 0% 40%;
+    }
+}

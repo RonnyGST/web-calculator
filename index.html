@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+        <title>Calculator</title>
+    </head>
+    
+    <body>
+        <section>
+            <ul>
+                <li><button id="clear" type="submit" onclick="clearDisplay()">C</button></li>
+                <li><button class="oper" type="submit" onclick="percent()">%</button></li>
+                <li><button class="oper" type="submit" onclick="pow()">^</button></li>
+                <li><button type="submit" class="oper" onclick="multiply()">X</button></li>
+
+                <li><button type="submit" class="numberL" onclick="numbers(7)">7</button></li>
+                <li><button type="submit" class="number" onclick="numbers(8)">8</button></li>
+                <li><button type="submit" class="numberR" onclick="numbers(9)">9</button></li>
+                <li><button class="oper" type="submit" onclick="divide()">÷</button></li>
+
+                <li><button class="numberL" type="submit" onclick="numbers(4)">4</button></li>
+                <li><button class="number" type="submit" onclick="numbers(5)">5</button></li>
+                <li><button class="numberR" type="submit" onclick="numbers(6)">6</button></li>
+                <li><button class="oper" type="submit" onclick="add()">+</button></li>
+
+                <li><button class="numberL" type="submit" onclick="numbers(1)">1</button></li>
+                <li><button class="number" type="submit" onclick="numbers(2)">2</button></li>
+                <li><button class="numberR" type="submit" onclick="numbers(3)">3</button></li>
+                <li><button class="oper" type="submit" onclick="subtract()">-</button></li>
+
+                <li><button class="numberL" type="submit" onclick="numbers(0)">0</button></li>
+                <li><button id="equal" type="submit" onclick="showResult()">=</button></li>
+                <li><button id="dot" type="submit" onclick="dot()">.</button></li>
+            </ul>
+            
+            <div id="display">
+                <h2 id="number1"></h2>
+                <h2 id="operator"></h2>
+                <h2 id="number2"></h2>
+                <h1 id="result"></h1>
+            </div>
+        </section>
+        
+        
+        <script src="src.js" type="text/javascript"></script>
+    </body>
+</html>
